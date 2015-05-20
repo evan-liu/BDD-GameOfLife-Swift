@@ -12,7 +12,7 @@
 		20D686061B0D241A00DDC786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D686041B0D241A00DDC786 /* Main.storyboard */; };
 		20D686081B0D241A00DDC786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D686071B0D241A00DDC786 /* Images.xcassets */; };
 		20D6860B1B0D241A00DDC786 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D686091B0D241A00DDC786 /* LaunchScreen.xib */; };
-		20D686171B0D241A00DDC786 /* GameOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D686161B0D241A00DDC786 /* GameOfLifeTests.swift */; };
+		20D686171B0D241A00DDC786 /* GameOfLifeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D686161B0D241A00DDC786 /* GameOfLifeSpec.swift */; };
 		B8543F7BE2277FEABCF5B54F /* Pods_GameOfLifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F485433044A1F8FD93B12A /* Pods_GameOfLifeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		20D6860A1B0D241A00DDC786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		20D686101B0D241A00DDC786 /* GameOfLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D686151B0D241A00DDC786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20D686161B0D241A00DDC786 /* GameOfLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeTests.swift; sourceTree = "<group>"; };
+		20D686161B0D241A00DDC786 /* GameOfLifeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeSpec.swift; sourceTree = "<group>"; };
 		B0F485433044A1F8FD93B12A /* Pods_GameOfLifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameOfLifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D1F9BBDA382AA8B70FF654 /* Pods-GameOfLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfLifeTests/Pods-GameOfLifeTests.release.xcconfig"; sourceTree = "<group>"; };
 		E3DD109B60891CCC712CD5D2 /* Pods-GameOfLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfLifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfLifeTests/Pods-GameOfLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		20D686131B0D241A00DDC786 /* GameOfLifeTests */ = {
 			isa = PBXGroup;
 			children = (
-				20D686161B0D241A00DDC786 /* GameOfLifeTests.swift */,
+				20D686161B0D241A00DDC786 /* GameOfLifeSpec.swift */,
 				20D686141B0D241A00DDC786 /* Supporting Files */,
 			);
 			path = GameOfLifeTests;
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D686171B0D241A00DDC786 /* GameOfLifeTests.swift in Sources */,
+				20D686171B0D241A00DDC786 /* GameOfLifeSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
