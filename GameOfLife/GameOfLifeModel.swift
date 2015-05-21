@@ -38,12 +38,7 @@ public class GameOfLifeModel {
         }
         
         if isCellAliveAtRow(row, column: column) {
-            if aliveNeighbours < 2 {
-                return false
-            }
-            if aliveNeighbours == 2 || aliveNeighbours == 3 {
-                return true
-            }
+            return aliveNeighbours == 2 || aliveNeighbours == 3
         }
         
         return false
