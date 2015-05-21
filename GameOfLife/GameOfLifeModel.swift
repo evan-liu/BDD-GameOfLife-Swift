@@ -44,6 +44,16 @@ public class GameOfLifeModel {
         return aliveNeighbours == 3
     }
     
+    public func nextFrame() {
+        var newMap = [String:Bool]()
+        for i in 0..<rows {
+            for j in 0..<columns {
+                newMap[keyOfCellAtRow(i, column: j)] = willCellBeAliveAtRow(i, column: j)
+            }
+        }
+        aliveMap = newMap
+    }
+    
     private func keyOfCellAtRow(row: Int, column: Int) -> String {
         return "\(row)_\(column)";
     }

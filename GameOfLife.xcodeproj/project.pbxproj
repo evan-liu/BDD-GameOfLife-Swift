@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2041506D1B0E8ACE00FAE790 /* GameOfLifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041506C1B0E8ACE00FAE790 /* GameOfLifeModel.swift */; };
+		204150701B0E92C900FAE790 /* GameOfLifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041506F1B0E92C900FAE790 /* GameOfLifeView.swift */; };
 		20D686011B0D241A00DDC786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D686001B0D241A00DDC786 /* AppDelegate.swift */; };
-		20D686031B0D241A00DDC786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D686021B0D241A00DDC786 /* ViewController.swift */; };
+		20D686031B0D241A00DDC786 /* GameOfLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D686021B0D241A00DDC786 /* GameOfLifeViewController.swift */; };
 		20D686061B0D241A00DDC786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D686041B0D241A00DDC786 /* Main.storyboard */; };
 		20D686081B0D241A00DDC786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D686071B0D241A00DDC786 /* Images.xcassets */; };
 		20D6860B1B0D241A00DDC786 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D686091B0D241A00DDC786 /* LaunchScreen.xib */; };
@@ -29,10 +30,11 @@
 
 /* Begin PBXFileReference section */
 		2041506C1B0E8ACE00FAE790 /* GameOfLifeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfLifeModel.swift; sourceTree = "<group>"; };
+		2041506F1B0E92C900FAE790 /* GameOfLifeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfLifeView.swift; sourceTree = "<group>"; };
 		20D685FB1B0D241A00DDC786 /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D685FF1B0D241A00DDC786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D686001B0D241A00DDC786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20D686021B0D241A00DDC786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20D686021B0D241A00DDC786 /* GameOfLifeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLifeViewController.swift; sourceTree = "<group>"; };
 		20D686051B0D241A00DDC786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20D686071B0D241A00DDC786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20D6860A1B0D241A00DDC786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -63,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2041506E1B0E929500FAE790 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2041506C1B0E8ACE00FAE790 /* GameOfLifeModel.swift */,
+				20D686021B0D241A00DDC786 /* GameOfLifeViewController.swift */,
+				2041506F1B0E92C900FAE790 /* GameOfLifeView.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		20D685F21B0D241A00DDC786 = {
 			isa = PBXGroup;
 			children = (
@@ -86,9 +98,8 @@
 		20D685FD1B0D241A00DDC786 /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
-				20D686021B0D241A00DDC786 /* ViewController.swift */,
+				2041506E1B0E929500FAE790 /* Classes */,
 				20D685FE1B0D241A00DDC786 /* Supporting Files */,
-				2041506C1B0E8ACE00FAE790 /* GameOfLifeModel.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -291,7 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2041506D1B0E8ACE00FAE790 /* GameOfLifeModel.swift in Sources */,
-				20D686031B0D241A00DDC786 /* ViewController.swift in Sources */,
+				204150701B0E92C900FAE790 /* GameOfLifeView.swift in Sources */,
+				20D686031B0D241A00DDC786 /* GameOfLifeViewController.swift in Sources */,
 				20D686011B0D241A00DDC786 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
