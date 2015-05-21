@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2041506D1B0E8ACE00FAE790 /* GameOfLifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041506C1B0E8ACE00FAE790 /* GameOfLifeModel.swift */; };
 		20D686011B0D241A00DDC786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D686001B0D241A00DDC786 /* AppDelegate.swift */; };
 		20D686031B0D241A00DDC786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D686021B0D241A00DDC786 /* ViewController.swift */; };
 		20D686061B0D241A00DDC786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D686041B0D241A00DDC786 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2041506C1B0E8ACE00FAE790 /* GameOfLifeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfLifeModel.swift; sourceTree = "<group>"; };
 		20D685FB1B0D241A00DDC786 /* GameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D685FF1B0D241A00DDC786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D686001B0D241A00DDC786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,12 +86,9 @@
 		20D685FD1B0D241A00DDC786 /* GameOfLife */ = {
 			isa = PBXGroup;
 			children = (
-				20D686001B0D241A00DDC786 /* AppDelegate.swift */,
 				20D686021B0D241A00DDC786 /* ViewController.swift */,
-				20D686041B0D241A00DDC786 /* Main.storyboard */,
-				20D686071B0D241A00DDC786 /* Images.xcassets */,
-				20D686091B0D241A00DDC786 /* LaunchScreen.xib */,
 				20D685FE1B0D241A00DDC786 /* Supporting Files */,
+				2041506C1B0E8ACE00FAE790 /* GameOfLifeModel.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -97,6 +96,10 @@
 		20D685FE1B0D241A00DDC786 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20D686001B0D241A00DDC786 /* AppDelegate.swift */,
+				20D686041B0D241A00DDC786 /* Main.storyboard */,
+				20D686091B0D241A00DDC786 /* LaunchScreen.xib */,
+				20D686071B0D241A00DDC786 /* Images.xcassets */,
 				20D685FF1B0D241A00DDC786 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2041506D1B0E8ACE00FAE790 /* GameOfLifeModel.swift in Sources */,
 				20D686031B0D241A00DDC786 /* ViewController.swift in Sources */,
 				20D686011B0D241A00DDC786 /* AppDelegate.swift in Sources */,
 			);
