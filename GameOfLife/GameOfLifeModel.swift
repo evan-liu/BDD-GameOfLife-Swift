@@ -41,7 +41,7 @@ public class GameOfLifeModel {
             return aliveNeighbours == 2 || aliveNeighbours == 3
         }
         
-        return false
+        return aliveNeighbours == 3
     }
     
     private func keyOfCellAtRow(row: Int, column: Int) -> String {
