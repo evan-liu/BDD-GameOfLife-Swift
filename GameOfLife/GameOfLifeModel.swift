@@ -41,6 +41,9 @@ public class GameOfLifeModel {
             if aliveNeighbours < 2 {
                 return false
             }
+            if aliveNeighbours == 2 || aliveNeighbours == 3 {
+                return true
+            }
         }
         
         return false

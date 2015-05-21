@@ -31,5 +31,22 @@ class GameOfLifeSpec: QuickSpec {
                 }
             }
         }
+        
+        describe("Rule #2") {
+            context("A live cell with two or three live neighbours") {
+                it("will live") {
+                    model.makeCellBeAliveAtRow(1, column: 1)
+                    
+                    // 2 live neighbours
+                    model.makeCellBeAliveAtRow(0, column: 0)
+                    model.makeCellBeAliveAtRow(0, column: 1)
+                    expect(model.willCellBeAliveAtRow(1, column: 1)).to(beTrue())
+                    
+                    // 3 live neighbours
+                    model.makeCellBeAliveAtRow(0, column: 2)
+                    expect(model.willCellBeAliveAtRow(1, column: 1)).to(beTrue())
+                }
+            }
+        }
     }
 }
